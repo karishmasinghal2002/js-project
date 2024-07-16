@@ -8,3 +8,4 @@ accountpwd = "020202"
 accountcity = "delhi "
 // accountid = 2
 console.log(accountid);
+console.table([accountid, accountemail, accountpwd, accountcity])
