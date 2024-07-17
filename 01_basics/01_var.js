@@ -110,8 +110,10 @@ console.log(two.email);
 const nams="karishma"
 console.log(`hello my name is ${nams}`);
 
-const nam=new String("karishma")
+const nam=new String("karishma") //declare string
 
-console.log(nam[0]);
-console.log(nam.__proto__);
-console.log(nam.length);
+console.log(nam[0]); 
+console.log(nam.__proto__); //prototype
+console.log(nam.length); //length of the string
+console.log(nam.charAt(2));
+console.log(nam.indexOf('h'));
