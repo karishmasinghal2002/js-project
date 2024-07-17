@@ -42,3 +42,67 @@ let some=33
 let string=String(some)
 console.log(string);
 console.log(typeof string);
+
+// alert (3+3) not work because we are using node js not browser
+
+//  operations
+
+let value=3
+let negvalue=-value
+console.log(value);
+console.log(negvalue);
+
+console.log(2+2);
+console.log(2-2);
+console.log(2*2);
+console.log(2/2);
+console.log(2%2);
+console.log(2**2);
+
+let str1="hello"
+let str2=" karishma"
+let str3=str1 + str2
+console.log(str3);
+
+let counter=2
+++counter
+console.log(counter);
+
+// primitive
+// 7types: string,number,boolean,null,undefined,symbol,bigint
+
+// non primitive or reference type
+// array,objects,functions
+
+const id=Symbol('123') //how to define symbol
+const acc=Symbol('123')
+console.log(id===acc);
+
+const num=12355464477878984646565n // to make it bigint we write n in the end
+
+const array=["karishma", "ashwini", "abhishek"] //array is always written in [] brackets
+
+let obj={ //we can also store object in a variable
+    name:"karishma", // objects are written in{} brackets
+    age:22
+}
+
+const my=function () { //storing a function in a variable
+    console.log("hello  world"); //definition of a function
+}
+
+let names="aditya"
+let another=names
+another="karishma"
+console.log(names);
+console.log(another);
+
+let one={
+    email:"abc@gmail.com"
+}
+
+let two=one
+two.email="xcv@gmail.com"
+
+console.log(one.email);
+console.log(two.email);
