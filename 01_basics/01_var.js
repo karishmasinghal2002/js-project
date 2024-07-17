@@ -42,10 +42,6 @@ let some=33
 let string=String(some)
 console.log(string);
 console.log(typeof string);
-<<<<<<< HEAD
-
-// alert (3+3) not work because we are using node js not browser
-=======
 
 // alert (3+3) not work because we are using node js not browser
 
@@ -110,4 +106,12 @@ two.email="xcv@gmail.com"
 
 console.log(one.email);
 console.log(two.email);
->>>>>>> 718863dcc7b34d6a1718826aff753712d6f95b76
+
+const nams="karishma"
+console.log(`hello my name is ${nams}`);
+
+const nam=new String("karishma")
+
+console.log(nam[0]);
+console.log(nam.__proto__);
+console.log(nam.length);
