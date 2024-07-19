@@ -121,3 +121,14 @@ const newg = nam.substring(0,4);
 console.log(newg);
 const news = nam.slice(-7,5);
 console.log(news);
+
+const you="     karishma      "
+console.log(you);
+console.log(you.trim()); //it will trim start and end spaces
+
+const url="https://karishma.com/karishma%20singhal"
+console.log(url.replace('%20','-')); //%20 will be replaced by '-'
+console.log(url.includes('karishma')); //does url have karishma or not
+
+const vars = "karishma-ka-singhal"
+console.log(vars.split('-')); //slipt the string into array
