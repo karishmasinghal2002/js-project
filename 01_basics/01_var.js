@@ -117,8 +117,7 @@ console.log(nam.__proto__); //prototype
 console.log(nam.length); //length of the string
 console.log(nam.charAt(2));
 console.log(nam.indexOf('h'));
-
 const newg = nam.substring(0,4);
 console.log(newg);
-const news = nam.slice(-8,4);
+const news = nam.slice(-7,5);
 console.log(news);
