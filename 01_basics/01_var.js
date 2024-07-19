@@ -132,3 +132,16 @@ console.log(url.includes('karishma')); //does url have karishma or not
 
 const vars = "karishma-ka-singhal"
 console.log(vars.split('-')); //slipt the string into array
+
+//NUMBERS
+const balance = new Number(12300894) //to specify the type of variable
+console.log(balance);
+console.log(balance.toString()); //convert to string
+console.log(balance.toString().length); // length of string
+console.log(balance.toFixed(2));
+console.log(balance.toPrecision(4)); //round off
+console.log(balance.toLocaleString('en-IN'));
+
+//MATHS
+console.log(Math);
+console.log(Math.abs(-4)); // convert only negative to positive
